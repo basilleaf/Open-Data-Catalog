@@ -60,6 +60,8 @@ You can verify the connection with:
 
 Copy `local_settings.py.example` to `local_settings.py`
 
+    cp local_settings.py.example local_settings.py
+
 Update the database settings in local_settings.py. You'll probably have to update "name", "user", "password", and "host". It should look similar to:
 
         DATABASES = {
